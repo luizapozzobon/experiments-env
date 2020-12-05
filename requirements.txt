@@ -1,0 +1,13 @@
+# Main
+pytorch-lightning==1.0.6
+transformers==3.5.1
+
+# Utils/metrics
+sacrebleu
+fairseq
+
+# Infra
+jupyterlab
+neptune-client
+neptune-notebooks
+neptune-contrib[all]

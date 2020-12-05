@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  experiments:
+    build: .
+    ports:
+      - 8888:8888
+    volumes:
+      - ./data/:/workspace/data/
+    stdin_open: true
+    tty: true
