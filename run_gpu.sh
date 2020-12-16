@@ -1,1 +1,1 @@
-docker run --gpus all --rm -p 8888:8888 -v ${pwd}/data/:/workspace/data -it $1 $2
+docker run --gpus all --shm-size=16g -p 8890:8890 -v $(pwd)/data/:/workspace/data -it $1 $2
