@@ -43,13 +43,10 @@ ssh -N -L 8890:127.0.0.1:8890 ssh_user@vm_ip_address
 
 Then initiate the jupyter lab instance in the docker environment with the following line (or with run_jupyter.sh):
 ```
-jupyter lab --ip 0.0.0.0 --port 8890 --allow-root --no-browser
+jupyter notebook --ip 0.0.0.0 --port 8890 --allow-root --no-browser
 ```
 
 Then access the jupyter lab environment on the local machine with the url that appears on screen or with:
-```
-http://127.0.0.1:8890/lab
-```
 
 ## References
 
